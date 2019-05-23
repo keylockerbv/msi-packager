@@ -1,8 +1,8 @@
 FROM node:11-alpine
 
-COPY . .
-
 RUN apk add msitools
 RUN npm install
+
+COPY . .
 
 ENTRYPOINT ["node", "cli"]
