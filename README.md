@@ -84,3 +84,17 @@ Options:
 ```
 
 All options are required except for `--local` and `--arch`.
+
+## Docker
+
+Build a Docker image:
+
+```
+docker build -t msi-packager .
+```
+
+Run the Docker image:
+
+```
+docker run msi-packager
+```
